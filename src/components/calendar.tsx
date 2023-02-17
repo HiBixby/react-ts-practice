@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { ReactComponent as RightArrowIcon } from "../assets/btn-right-arrow.svg";
+import { ReactComponent as LeftArrowIcon } from "../assets/btn-left-arrow.svg";
 
 const CalendarLayout = styled.div`
   width: 90.7%;
@@ -37,6 +39,8 @@ const Calendar = () => {
     <CalendarLayout>
       <YearTime>2023</YearTime>
       <MonthTime>02</MonthTime>
+      <LeftArrowIcon />
+      <RightArrowIcon />
     </CalendarLayout>
   );
 };
