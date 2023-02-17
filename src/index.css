@@ -11,8 +11,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --greyish: #afafaf;
+  --baby-blue: #afceff;
+  --white: #fff;
+  --cool-grey: #a4beba;
+  --ice-blue: #ebfffc;
+  --aqua-marine: #34e8cd;
+  --warm-grey: #707070;
+  --black-16: rgba(0, 0, 0, 0.16);
+  --ice: #defffa;
+  --green-blue: #01af94;
 }
 
-html{
+body,
+html {
+  height: 100%;
   color-scheme: light;
 }
