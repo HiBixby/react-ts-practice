@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as AddIcon } from "../assets/add.svg";
+import { Link } from "react-router-dom";
+import { ReactComponent as AddIcon } from "../assets/btn-first-add.svg";
 const NoTodoLayout = styled.div`
   flex: 1;
   display: flex;
@@ -24,6 +25,9 @@ const NoTodo = () => {
     <NoTodoLayout>
       <NoTodoParagraph>오늘은 한가하네요</NoTodoParagraph>
       <NoTodoParagraph>일정을 추가해봐요!</NoTodoParagraph>
+      <Link to="/todo">
+        <AddIcon />
+      </Link>
     </NoTodoLayout>
   );
 };
