@@ -7,6 +7,7 @@ const CalendarLayout = styled.div`
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 3px 6px 0 var(--black-16);
+  overflow-x: scroll;
 `;
 const YearTime = styled.time`
   margin: 7.2% 0 0 5.6%;
