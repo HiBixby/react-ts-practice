@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import reactLogo from './assets/react.svg'
-import Home from "./views/Home"
+import reactLogo from './assets/react.svg'
+import Home from "./views/Home";
+import Todo from "./views/Todo";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </BrowserRouter>
   );
