@@ -56,9 +56,9 @@ const S = {
     }
   `,
 };
-const Calendar = () => {
+const Calendar = (props: any) => {
   return (
-    <S.CalendarLayout>
+    <S.CalendarLayout className={props.className}>
       <S.YearTime>2023</S.YearTime>
       <S.SecondLineBox>
         <S.MonthTime>02</S.MonthTime>
