@@ -25,7 +25,7 @@ const NoTodo = () => {
     <NoTodoLayout>
       <NoTodoParagraph>오늘은 한가하네요</NoTodoParagraph>
       <NoTodoParagraph>일정을 추가해봐요!</NoTodoParagraph>
-      <Link to="/todo">
+      <Link to="/todo" title="새 일정 생성">
         <AddIcon />
       </Link>
     </NoTodoLayout>
