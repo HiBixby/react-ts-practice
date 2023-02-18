@@ -23,13 +23,3 @@
   --ice: #defffa;
   --green-blue: #01af94;
 }
-
-body,
-html {
-  height: 100%;
-  color-scheme: light;
-}
-
-body {
-  margin: 0;
-}
